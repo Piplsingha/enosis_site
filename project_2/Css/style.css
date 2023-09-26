@@ -1,0 +1,82 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+img{
+    width: 100%;
+}
+.carosel_head{
+    display: flex;
+}
+
+.carosel_box{
+    height: 120px;
+    gap: 40px;
+    width: 160px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+.carosel_box img{
+    width: 100%;
+    height: 100%;
+}
+.contact_h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 1;
+}
+input, textarea{
+    width: 100%;
+    padding: 13px;
+    font-size: 19px;
+}
+
+
+/* 2nd part csss */
+.main_div{
+    padding: 200px 0;
+}
+
+.main_2nd_t{
+    line-height: 80px;
+    font-weight: 700;
+    font-size: 90px;
+}
+.icon_body{
+    margin-bottom: 40px;
+}
+.icon_2nd{
+    font-size: 60px;
+    padding: 25px;
+    border-radius: 50%;
+    color: red;
+    border: 2px solid red;
+}
+.icon_2nd:hover{
+    color: #fff;
+    background: red;
+    border: 2px solid red;
+}
+.img_badk{
+    height: 300px;
+    width: 300px;
+}
+.img_badk img{
+    vertical-align:middle; 
+    height: auto;
+    max-width: 100%;
+     border: none;
+     border-radius: 0;
+     box-shadow: none; 
+     display: inline-block;
+}
+
+/* 3rd part css */
+select {
+    padding: 18px;
+    width: 100%;
+}
+
+.captcha:hover{
+     right: 0px; bottom: 20px;
+    cursor: pointer;
+}
